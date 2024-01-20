@@ -9,7 +9,7 @@ const Product = require('./productSchema');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const uri = "mongodb+srv://misalamruta08:PLLItzkDQY3Hr6AK@cluster0.i5a7blm.mongodb.net/?retryWrites=true&w=majority";
+const uri = "";
 app.use(cors());
 
 // MongoDB connection
